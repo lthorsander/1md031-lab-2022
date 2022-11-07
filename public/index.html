@@ -3,45 +3,56 @@
    <head>
        <title> BurgerHeaven</title>
        <meta charset="utf-8"/>
-       <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">
    </head>
    <body>
     <header> 
+        <img id="headerImg" src="https://www.mural-wallpaper.com/wp-content/uploads/2021/08/S-NA17.jpg">
+        /* https://ohcbrands.com/wp-content/uploads/2018/04/69648590-header-wallpapers.jpg */
         <h1>Welcome to BurgerOnline</h1>
     </header>
     <main>
-        <section>
+        <section id="selectBurger">
+            
             <h2> Select Burger</h2>
-            <p> This is where you execute burger selection</p>
-            <div> 
+            <p> This is where you execute burger selection </p>
+            <div class="wrapper"> 
+            <div class="burger A"> 
             <h3> Fire Burger</h3>
             <img src="https://thumbs.dreamstime.com/b/tasty-burger-french-fries-fire-close-up-home-made-flames-130127368.jpg" style="width: 200px">
             <ul>
+                <section class="ingredients"> 
                 <li> 750 kCal</li>
-                <li> Contains lactose</li>
-                <li> Contains gluten</li>
+                <li> Contains <span id="ingred"> lactose </span> </li>
+                <li> Contains <span id="ingred"> gluten </span> </li>
+                </section>
             </ul>
         </div>
-            <div> 
+            <div class="burger B"> 
                 <h3> Fried Turkey Burger</h3>
                 <img src="https://i2.wp.com/www.awortheyread.com/wp-content/uploads/2020/12/Deep-Fried-Turkey-Burger-18.jpg" style="width: 200px">
                 <ul>
+                    <section class="ingredients">
                     <li> 600 kCal</li>
-                    <li> Contains lactose</li>
+                    <li> Contains <span id="ingred"> lactose </span> </li>
+                    </section>
                 </ul>
-                </div>
-                <div> 
+            </div>
+            <div class="burger C"> 
                     <h3> A double w/ Cheese</h3>
                     <img src="https://images.deliveryhero.io/image/fd-op/LH/st03-hero.jpg" style="width: 200px">
                     <ul>
+                        <section class="ingredients"> 
                         <li> 1800 kCal </li>
-                        <li> Contains lactose</li>
-                        <li> Contains gluten</li>
+                        <li> Contains <span id="ingred"> lactose </span> </li>
+                        <li> Contains  <span id="ingred"> gluten </span> </li>
+                    </section>
                     </ul>
                     </div>
+            </div>
 
         </section>
-        <section>
+        <section id="customerInfo">
             <h2> Customer Information</h2>
             <p> This is where you provide necessary information</p>
             <h3> Delivery Information:</h3>
@@ -91,8 +102,8 @@
             </form>
             </section>
         </section>
-        <br/><button type="submit">
-            <img src="https://www.pngfind.com/pngs/m/55-559850_check-mark-check-png-transparent-png.png" style="width: 15px">
+        <br/><button type="submit" >
+            <img src="https://cdn-icons-png.flaticon.com/512/5360/5360883.png" style="width: 10px">
             Place my order!
           </button>
     </main>
