@@ -2,8 +2,19 @@
     <div id="orders">
       <div id="orderList">
         <div v-for="(order, key) in orders" v-bind:key="'order'+key">
-          #{{ key }}: {{ order.orderItems.join(", ") }}
+          <span> #{{ key }}: </span><br>
+          Ordered: 
+          <div v-for="(amount, name) in order.orderItems" v-bind:key="'order'+key+name">
+            <span> {{amount}} {{name}} </span>
+          </div>
+
+          <span> Name: {{order.form.name}}</span> <br>
+          <span> E-mail: {{order.form.mail}}</span> <br>
+          <span> Payment: {{order.form.pay}}</span> <br>
+          <span> Gender: {{order.form.gender}}</span><br>
         </div>
+
+
         <button v-on:click="clearQueue">Clear Queue</button>
       </div>
       <div id="dots" v-bind:style="{ background: 'url(' + require('../../public/img/polacks.jpg')+ ')' }">

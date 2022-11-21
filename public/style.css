@@ -1,82 +1,82 @@
 @import 'https://fonts.googleapis.com/css?family=Pacifico|Dosis';
 
-.wrapper{
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 33% 33% 33%;
-    background-color: black;
-    color: white;
+.wrapper {
+   display: grid;
+   grid-gap: 10px;
+   grid-template-columns: 33% 33% 33%;
+   background-color: black;
+   color: white;
 }
 
-.burger{
-    background-color: black;
-     color: white;
-     border-radius: 5px;
-     padding: 20px;
+.burger {
+   background-color: black;
+   color: white;
+   border-radius: 5px;
+   padding: 20px;
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: normal;
- }
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: normal;
+}
 
 .ingredients {
-    color: gray;
+   color: gray;
 
- }
+}
 
 #ingred {
-    font-weight: bold;
-    color: white;
+   font-weight: bold;
+   color: white;
 }
 
 #selectBurger {
-    background-color: black;
-    color: white;
-    margin: 5px 10px 5px 10px;
-    padding: 5px 10px;
-    border: dashed white;
+   background-color: black;
+   color: white;
+   margin: 5px 10px 5px 10px;
+   padding: 5px 10px;
+   border: dashed white;
 }
 
 button:hover {
-    background-color: white;
-    cursor: pointer;
+   background-color: white;
+   cursor: pointer;
 
- }
+}
 
- #customerInfo{
-    margin: 5px 10px 5px 10px;
-    padding: 5px 10px;
-    border: dashed black;
- }
+#customerInfo {
+   margin: 5px 10px 5px 10px;
+   padding: 5px 10px;
+   border: dashed black;
+}
 
- button {
-    margin: 0px 20px 20px 20px;
-    background-color: lightgray;
-    color: black;
- }
+button {
+   margin: 0px 20px 20px 20px;
+   background-color: lightgray;
+   color: black;
+}
 
- div{ 
-    margin: 10px;
-    padding: 30px;
- }
+div {
+   margin: 10px;
+   padding: 30px;
+}
 
- header {
-    margin: 0px 10px 0px 10px;
-    height: 300px;
-    overflow:hidden;
- }
+header {
+   margin: 0px 10px 0px 10px;
+   height: 300px;
+   overflow: hidden;
+}
 
- #headerImg{
-    opacity: 0.85;
-    width: 100%;
-    height: auto;
- }
+#headerImg {
+   opacity: 0.85;
+   width: 100%;
+   height: auto;
+}
 
- h1 {
-    color: white;
-    position: absolute;
-    padding: 35px 500px;
-    margin-top: -760px;
-    font-size: 200%;
- }
+h1 {
+   color: white;
+   position: absolute;
+   padding: 35px 500px;
+   margin-top: -760px;
+   font-size: 200%;
+}

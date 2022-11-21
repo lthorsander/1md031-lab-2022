@@ -1,0 +1,23 @@
+
+[
+    {
+      "name": "Fire Burger",
+      "kCal": 750,
+      "ingredients": ["gluten","lactose"],
+      "img": "https://thumbs.dreamstime.com/b/tasty-burger-french-fries-fire-close-up-home-made-flames-130127368.jpg"
+    },
+    {
+        "name": "Chicken Burger",
+        "kCal": 600,
+        "ingredients": ["gluten"],
+        "img": "https://i2.wp.com/www.awortheyread.com/wp-content/uploads/2020/12/Deep-Fried-Turkey-Burger-18.jpg"
+      },
+    {
+        "name": "Cheese Burger",
+        "kCal": 1200,
+        "ingredients": ["gluten", "lactose"],
+        "img": "https://images.deliveryhero.io/image/fd-op/LH/st03-hero.jpg"
+      }
+    
+
+  ]
